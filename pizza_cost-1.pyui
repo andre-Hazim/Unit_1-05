@@ -1,0 +1,89 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{28, 18}, {310, 43}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "enter_cost_label",
+          "frame" : "{{239, 201}, {150, 32}}",
+          "uuid" : "9A736D9E-990E-4E0C-A390-9B8C722D5EE5",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter the diameter of pizza in inches",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{371, 18}, {200, 43}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "pizza_diameter_textfield",
+          "frame" : "{{214, 201}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "E91AF257-DA3D-470A-8D24-C9D64C18D8BC",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{42, 80}, {159, 50}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_button_touch_up_inside",
+          "frame" : "{{274, 201}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "B2E6AA88-0514-461C-B890-EF56361564C9",
+          "class" : "Button",
+          "font_bold" : true,
+          "name" : "calculate_button",
+          "font_size" : 15
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{28, 201}, {361, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "final_cost_label",
+          "frame" : "{{239, 201}, {150, 32}}",
+          "uuid" : "C633156A-2AC1-48D1-9463-154CAC4464AD",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "The final cost is ",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {627, 434}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
